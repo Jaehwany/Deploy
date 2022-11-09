@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   jenkins:
+    restart: always
     build:
       context: ""
       args:

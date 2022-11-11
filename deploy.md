@@ -1,9 +1,6 @@
-# Infra
+# Deploy
 <br>
 
-### Deploy
-
-<br>
 
 1. Docker, Docker-compose 설치
 

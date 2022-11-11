@@ -1,4 +1,4 @@
-package com.example.kafkaconsumer;
+package com.example.kafkaconsumer.exercise;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.*;
@@ -7,12 +7,11 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.Duration;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
 @Slf4j
-public class SimpleConsumer {
+public class Consumer {
     private final static String TOPIC_NAME = "hello.kafka";
     private final static String BOOTSTRAP_SERVERS = "ddokbun.com:8992";
     private final static String GROUP_ID = "test-group";

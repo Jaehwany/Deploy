@@ -2,7 +2,7 @@
 
 <br>
 
-1. docker, docker-compose 설치
+1. docker, docker-compose 설치 (설치 후 docker 권한 그룹 적용을 위한 재부팅 실시)
 
 ```
 $ make run

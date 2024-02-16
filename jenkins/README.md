@@ -16,9 +16,9 @@ $ docker logs jenkins
 ```
 <br>
 
-3. jenkins volume 권한 주기 (문제가 발생한 volume에 대한 permission 허가)
+3. jenkins volume 권한 주기 (문제가 발생한 volume에 대한 permission 허가)  ${error_volume}
 
 ```
-$ sudo chmod +w ${error_volume}
+$ sudo chmod 777 volume
 ```
 <br>

@@ -22,3 +22,11 @@ $ docker logs jenkins
 $ sudo chmod 777 volume
 ```
 <br>
+
+
+4. jenkins docker 재실행
+```
+$ docker stop jenkins
+$ docker rm jenkins
+$ make run
+```
